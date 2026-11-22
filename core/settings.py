@@ -33,6 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "personal-daily-journal.onrender.com",
+    "your-personal-daily-journal.netlify.app",
     "localhost",
     "127.0.0.1",
 ]
@@ -202,6 +203,8 @@ AUTH_USER_MODEL = 'accounts.UserModel'
 
 CORS_ALLOWED_ORIGINS = [
     "https://personal-daily-journal.onrender.com",
+    "https://your-personal-daily-journal.netlify.app",
+
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
